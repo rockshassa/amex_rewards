@@ -1,0 +1,10 @@
+<html>
+<script type="text/javascript" charset="utf-8">
+
+function doStuff(event){
+	safari.application.activeBrowserWindow.activeTab.page.dispatchMessage("clickAddToCard","");
+}
+
+safari.application.addEventListener("command", doStuff, true);
+</script>
+</html>
