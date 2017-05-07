@@ -6,7 +6,7 @@ function handleMessage(msgEvent) {
 
     if (messageName === "clickAddToCard") {
         
-		var items = document.querySelectorAll("button.ah-btn");
+		var items = document.querySelectorAll("*");
 		console.log(items.length);	
 		for (var i = 0; i < items.length; i++) {
          console.log('entered loop');
